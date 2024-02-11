@@ -1,0 +1,3 @@
+[submodule "mia-ui"]
+	path = mia-ui
+	url = git@github.com:NRA1/mia-ui.git
