@@ -1,9 +1,9 @@
 {
   "build": {
-    "beforeBuildCommand": "(cd mia-ui; ng build)",
-    "beforeDevCommand": "(cd mia-ui; ng serve)",
+    "beforeBuildCommand": "(cd mia-web; ng build)",
+    "beforeDevCommand": "(cd mia-web; ng serve)",
     "devPath": "http://localhost:4200/",
-    "distDir": "../mia-ui/dist/mia-ui"
+    "distDir": "../mia-web/dist/mia-web"
   },
   "package": {
     "productName": "Mia",
