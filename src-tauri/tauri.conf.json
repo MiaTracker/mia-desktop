@@ -3,7 +3,8 @@
     "beforeBuildCommand": "(cd mia-web; ng build)",
     "beforeDevCommand": "(cd mia-web; ng serve)",
     "devPath": "http://localhost:4200/",
-    "distDir": "../mia-web/dist/mia-web"
+    "distDir": "../mia-web/dist/mia-web",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "Mia",
@@ -11,7 +12,9 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "shell": {
+        "open": true
+      }
     },
     "bundle": {
       "active": true,
