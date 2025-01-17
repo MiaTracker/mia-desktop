@@ -3,7 +3,7 @@
     "beforeBuildCommand": "(cd mia-web; ng build)",
     "beforeDevCommand": "(cd mia-web; ng serve)",
     "devPath": "http://localhost:4200/",
-    "distDir": "../mia-web/dist/mia-web",
+    "distDir": "../mia-web/dist/mia-web/browser",
     "withGlobalTauri": true
   },
   "package": {
